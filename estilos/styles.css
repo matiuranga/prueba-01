@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Dekko&family=Patrick+Hand+SC&display=swap");
+
+
+body {
+  font-family: "Dekko", cursive;
+  font-family: "Patrick Hand SC", cursive;
+  width: auto;
+}
+
+
+
+.main__header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+.main__header img {
+  width: 250px;
+  height: 80px;
+  margin-left: 20px;
+}
+.main__header nav ul {
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  margin-right: 50px;
+}
+.main__header nav ul li a {
+  text-decoration: none;
+  margin: 15px;
+  font-size: x-large;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #e00819;
+  color: transparent;
+  background: #e00819;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+
+
+/** fin header **/
+
+
+
+.principal {
+  background-color: #f5e2ba;
+}
+.principal {
+  color: #ffffff;
+  background: #f7c1c1;
+  text-shadow: 3px 3px 0px #3a3737;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 150px);
+  background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.425)),
+    url(../images/pexels-daniel-blaj-6007945.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.principal h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.principal p {
+  font-size: 25px;
+  text-align: center;
+}
+.principal a {
+  background-color: #e00819;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 170px;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  text-shadow: 1px 2px 0px #292929;
+}
+.principal a:hover {
+  background-color: white;
+  color: #e00819;
+}
+article section img {
+  width: 300px;
+  height: 400px;
+}
+.section__one div {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.titulo__parrafo p {
+  margin: 25px;
+}
+.section__one .titulo__parrafo {
+  margin: 100px;
+  flex-direction: column;
+}
+.section__two div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.section__two .titulo__parrafo {
+  margin: 100px;
+  flex-direction: column;
+}
+
+.section__three div {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.section__three .titulo__parrafo {
+  margin: 100px;
+  flex-direction: column;
+}
+
+
+/** fin main**/
+
+
+
+.footer {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+.footer ul li {
+  font-size: medium;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  color: transparent;
+  background: #e00819;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+
+.footer img {
+  margin-right: 100px;
+  width: 250px;
+  height: 80px;
+}
+
+.footer ul li img {
+  width: 40px;
+  height: 40px;
+}
+
+/** fin footer**/
